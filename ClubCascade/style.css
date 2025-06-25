@@ -1,0 +1,174 @@
+.home {
+    background-color: #f3efee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .home .div {
+    background-color: #f3efee;
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+  }
+  
+  .home .overlap-group {
+    position: absolute;
+    width: 1920px;
+    height: 358px;
+    top: -62px;
+    left: 0;
+    background-color: #573279;
+    border-radius: 40px;
+  }
+  
+  .home .frame {
+    position: absolute;
+    width: 945px;
+    height: 68px;
+    top: 262px;
+    left: 487px;
+    background-color: #a88dc8;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .home .text-wrapper {
+    position: absolute;
+    width: 221px;
+    height: 68px;
+    top: -1px;
+    left: 724px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-2 {
+    position: absolute;
+    width: 221px;
+    height: 68px;
+    top: -1px;
+    left: 483px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-3 {
+    position: absolute;
+    width: 221px;
+    height: 36px;
+    top: 15px;
+    left: 241px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-4 {
+    position: absolute;
+    width: 221px;
+    height: 68px;
+    top: -1px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .MIT-ADTU-new-logo-wrapper {
+    position: absolute;
+    width: 352px;
+    height: 116px;
+    top: 91px;
+    left: 24px;
+    background-color: #f3efee;
+    border-radius: 10px;
+  }
+  
+  .home .MIT-ADTU-new-logo {
+    position: absolute;
+    width: 278px;
+    height: 108px;
+    top: 4px;
+    left: 37px;
+    object-fit: cover;
+  }
+  
+  .home .div-wrapper {
+    position: absolute;
+    width: 246px;
+    height: 79px;
+    top: 91px;
+    left: 1647px;
+    background-color: #ad8930;
+    border-radius: 10px;
+  }
+  
+  .home .text-wrapper-5 {
+    position: absolute;
+    width: 246px;
+    height: 79px;
+    top: -1px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .frame-2 {
+    position: absolute;
+    width: 850px;
+    height: 100px;
+    top: 107px;
+    left: 527px;
+    background-color: #f3efee;
+    border-radius: 10px;
+  }
+  
+  .home .text-wrapper-6 {
+    position: absolute;
+    width: 850px;
+    height: 100px;
+    top: -1px;
+    left: 0;
+    font-family: "Holtwood One SC-Regular", Helvetica;
+    font-weight: 400;
+    color: #573279;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .rectangle {
+    position: absolute;
+    width: 1590px;
+    height: 300px;
+    top: 390px;
+    left: 175px;
+    background-color: #d9d9d9;
+  }
+  

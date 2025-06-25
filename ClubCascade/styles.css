@@ -1,0 +1,401 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fef5f5; /* Hint of Red */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #6C3483; /* Eminence */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+/* Profile Icon & Dropdown */
+.profile-menu {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #512E5F;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-icon:hover {
+    background-color: #a37c00; /* Luxer Gold */
+}
+
+.profile-dropdown {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    z-index: 10;
+}
+
+.profile-dropdown a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #512E5F;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.profile-dropdown a:hover {
+    background-color: #f7f1fa;
+}
+
+.profile-icon:hover + .profile-dropdown {
+    display: block;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    background: #512E5F;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #a37c00; /* Luxer Gold */
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: linear-gradient(90deg, #6C3483, #ac94d8); /* Eminence to East Side */
+    color: white;
+    padding: 60px 20px;
+    border-radius: 15px;
+    margin: 30px auto;
+    max-width: 900px;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.hero h2 {
+    font-size: 2.6rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Event Section */
+.event-section, .events {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+}
+
+.event-section h2, .events h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #6C3483;
+    text-align: center;
+}
+
+.event-item, .event {
+    background: #f7f1fa;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border-left: 5px solid #6C3483;
+    transition: transform 0.2s ease;
+}
+
+.event-item:hover, .event:hover {
+    transform: scale(1.02);
+}
+
+.event-item h3, .event h3 {
+    font-size: 1.5rem;
+    color: #512E5F;
+}
+
+.event-item p, .event p {
+    font-size: 1.05rem;
+}
+
+/* Add Event Button */
+.btn-add {
+    color: white !important;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-add:hover {
+    background-color: #8e6b00;
+    transform: scale(1.05);
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+form label {
+    font-weight: 600;
+    color: #6C3483;
+}
+
+form input, form textarea, form select {
+    padding: 12px;
+    border: 2px solid #d3cce3;
+    border-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+form input:focus, form textarea:focus, form select:focus {
+    border-color: #6C3483;
+}
+
+/* File Upload Styling */
+input[type="file"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px dashed #ac94d8;
+    background-color: #f7f1fa;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+input[type="file"]:hover {
+    background-color: #e0d3f7;
+}
+
+/* Submit Button */
+form button {
+    background-color: #6C3483;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background-color: #5a2a6c;
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+    background: #6C3483;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+    font-size: 1rem;
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Page Enhancements */
+.contact {
+    padding: 50px 20px;
+    background: #fef5f5;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1100px;
+    margin: auto;
+    align-items: flex-start;
+    background: white;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-left, .contact-right {
+    flex: 1 1 45%;
+}
+
+.contact-left img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.contact-left iframe {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-right h2 {
+    font-size: 2rem;
+    color: #6C3483;
+    margin-bottom: 20px;
+}
+
+.contact-right label {
+    font-weight: 600;
+    margin-top: 12px;
+    color: #6C3483;
+}
+
+.contact-right input,
+.contact-right textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    font-size: 1rem;
+    border: 2px solid #d3cce3;
+    border-radius: 10px;
+    background: #f9f7fb;
+    transition: border-color 0.3s ease;
+}
+
+.contact-right input:focus,
+.contact-right textarea:focus {
+    border-color: #6C3483;
+}
+
+.contact-right .btn {
+    margin-top: 20px;
+    background-color: #6C3483;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-right .btn:hover {
+    background-color: #5a2a6c;
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-left, .contact-right {
+        flex: 1 1 100%;
+    }
+}
+
+.auth-buttons {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.btn-auth {
+    background-color: #FFD700;
+    color: #512E5F;
+    padding: 8px 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-auth:hover {
+    background-color: #e6c200;
+    color: white;
+}
+
+/* Smaller and compact buttons for Login/Sign Up */
+.nav-btn {
+    font-size: 0.85rem;  /* Smaller text */
+    padding: 6px 12px;   /* Reduced padding */
+    background: #A67C00; /* Luxer Gold */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    font-weight: 600;
+}
+
+.nav-btn:hover {
+    background: #6C3082; /* Eminence */
+    transform: scale(1.05);  /* Slightly larger on hover */
+}
+
+.nav-btn:active {
+    transform: scale(1);  /* Reset transform when clicked */
+}
