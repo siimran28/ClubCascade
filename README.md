@@ -5,71 +5,31 @@ ClubCascade
 A Centralized Platform for College Event Management
 
 
-📌 Overview
+ClubCascade is a simple web-based platform designed to centralize college event information.  
+It allows students to view upcoming events and enables administrators to manage event details efficiently.
 
-ClubCascade is a one-stop digital platform designed to solve the challenges of event management in colleges. It helps students stay updated with events while empowering organizers to easily manage registrations, promotions, and attendance.
-Instead of scattered notices, WhatsApp groups, or word-of-mouth, ClubCascade provides a centralized system with real-time updates, smart recommendations, and seamless integrations.
+## Features
+- View upcoming and ongoing events  
+- Admin panel for adding, editing, and deleting events  
+- Contact Us form for student queries  
+- Simple and user-friendly interface  
 
+## Technologies Used
+- PHP  
+- MySQL  
+- HTML, CSS, JavaScript  
+- XAMPP (Apache Server)
 
+## Database
+The system uses MySQL with four main tables:
+- Users  
+- Events  
+- ContactUs  
+- Admins  
 
-🚩 Problem Statement
-
-Managing college events manually leads to:
-Miscommunication and missed opportunities.
-Difficulty promoting events across multiple channels.
-Inefficient registration and attendance tracking.
-Frustration among students and organizers.
-
-
-
-💡 Proposed Solution
-
-ClubCascade provides:
-
-Centralized Event Management – All events in one place.
-AI-Powered Tools – Personalized recommendations, smart scheduling, and chatbot support.
-Real-Time Notifications – Instant updates for new events or changes.
-Digital Check-Ins – QR-based attendance and passes.
-Seamless Integrations – Calendar sync (Google/Outlook), payment gateway support.
-Analytics & Insights – Dashboards, predictive attendance, and sentiment analysis.
-
-
-
-🔑 Features
-
-📅 Event scheduling & venue management
-🔔 Push notifications & reminders
-🎟️ Registration & QR check-ins
-🤖 AI-powered smart scheduling & recommendations
-💬 In-app chat & chatbot support
-📊 Organizer dashboards & predictive insights
-🔒 Secure login with encryption
-🌐 Web & mobile app access
-
-
-
-🏗️ System Architecture
-
-Students: Explore events, register, receive notifications.
-Organizers: Create & update events, manage registrations, track attendance.
-Core System: Centralized platform with integrations.
-Insights: Reports, analytics, predictive attendance, sentiment analysis.
-
-
-
-🚀 Tech Stack (Planned)
-
-Frontend: HTML CSS JS / Flutter (for web & mobile)
-Backend: PHP
-Database: MySQL 
-AI/ML: Recommendation engine, smart scheduler
-Integrations: Google/Outlook Calendar, Payment Gateway APIs
-
-
-
-📈 Future Scope
-
-Cross-college event hosting.
-Advanced sponsorship and promotion tools.
-Expanded analytics (heatmaps, engagement trends).
-Scalable architecture for large institutions.
+## Setup
+1. Install XAMPP  
+2. Start Apache and MySQL  
+3. Create a database named **ClubCascade**  
+4. Import the SQL file included in the project  
+5. Run the project in browser:  
