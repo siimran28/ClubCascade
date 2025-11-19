@@ -1,6 +1,6 @@
 
 # ClubCascade
-ClubCascade
+
 
 A Centralized Platform for College Event Management
 
